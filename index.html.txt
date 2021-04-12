@@ -1,0 +1,23 @@
+<%@page import="java.util.ArrayList"%>
+<%
+    ArrayList<String> list = new ArrayList();
+    list = (ArrayList<String>) request.getAttribute("dato");
+%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+                <%
+        for(String item:list){
+            %>
+          <%= item %>  
+        <%    
+        }
+        %>
+    </body>
+</html>
