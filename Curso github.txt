@@ -1,0 +1,34 @@
+¿que es git?
+control de versiones
+una funcion puede ser es volver al pasado en tu proyecto
+volver a un estado concreto
+---------------
+es capaz de crear ramas para que cada uno cree su ejercicio
+se puede manejar con visual estudio code
+-------------
+para iniciar ponemos 
+-git init = se crea 2 areas 
+**area de ensayo.- almacenamiento temporal
+**Repositorio local.- se almacena donde tenemos el repositorio
+-git add 
+pedimos que archivos queremos que siga
+primero lleva al area de ensyo
+--git commit 
+lleva la informacion al repositorio local
+- git status -s(los repsitorios que no saben que tiene=?
+***************************************+
+git add index.html
+git commit -m "descripcion"
+/////Debemos introducir el nombre si estamos iniciando\\\\\
+git config --global user.username "jose"
+git config --global user.email "jose@gmail.com"
+*****************************************
+git reset --hard b62f74f
+git log --oneline //verificamos los commits que hicimos
+~~~~~~~~~Subiendo a git hub~~~~~~~~~
+Subir una copia a git hub
+git add . -> añade todos los archivos
+añadir y subir 
+git commit -am "descripciion"
+Modificar la descripcion de un comit
+git commit --amend 
